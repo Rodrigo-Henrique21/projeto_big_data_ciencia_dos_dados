@@ -1,4 +1,5 @@
 create table if not exists ecommerce.customer(
+id_num int IDENTITY(1,1),
 customer_id varchar(50) primary key,
 customer_unique_id varchar(50),
 customer_zip_code_prefix integer,
